@@ -1,0 +1,19 @@
+Red–black tree (Árvore rubro-negra):
+
+Uma árvore rubro-negra é um tipo de árvore binária de busca balanceada, ela contem propriedades adicionais além das usadas em uma árvore binária normal:
+
+1:Um nó é vermelho ou preto.
+2:A raiz é preta. 
+3:Todas as folhas são pretas.
+4:Ambos os filhos de todos os nós vermelhos são pretos.
+5:Todo caminho de um dado nó para qualquer de seus nós folhas descendentes contem o mesmo número de nós pretos.
+
+Esse tipo de árvore serve para garantir o balanceamento da árvore binária (estas regras garantem que o caminho mais longo possível da raiz até uma folha não seja mais do que o dobro do caminho mais curto possível).
+
+B-Tree:
+
+É uma árvore onde todas as suas folhas estão no mesmo nível. Ela é usada para armazenar grandes quantidades de dados, muito usada em bancos de dados.
+
+B+ -Tree:
+
+É uma variação da B-Tree onde as informações são armazenadas apenas nas folhas e os nodos internos contem apenas chaves para guiar a busca
